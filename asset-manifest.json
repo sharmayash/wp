@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/wp/static/css/main.16eba00c.chunk.css",
-    "main.js": "/wp/static/js/main.9e8e9c43.chunk.js",
-    "main.js.map": "/wp/static/js/main.9e8e9c43.chunk.js.map",
+    "main.css": "/wp/static/css/main.3d6facea.chunk.css",
+    "main.js": "/wp/static/js/main.39a03812.chunk.js",
+    "main.js.map": "/wp/static/js/main.39a03812.chunk.js.map",
     "runtime-main.js": "/wp/static/js/runtime-main.745b5364.js",
     "runtime-main.js.map": "/wp/static/js/runtime-main.745b5364.js.map",
     "static/css/2.d3ae2b0c.chunk.css": "/wp/static/css/2.d3ae2b0c.chunk.css",
-    "static/js/2.9f9f7130.chunk.js": "/wp/static/js/2.9f9f7130.chunk.js",
-    "static/js/2.9f9f7130.chunk.js.map": "/wp/static/js/2.9f9f7130.chunk.js.map",
+    "static/js/2.4d0ffada.chunk.js": "/wp/static/js/2.4d0ffada.chunk.js",
+    "static/js/2.4d0ffada.chunk.js.map": "/wp/static/js/2.4d0ffada.chunk.js.map",
     "index.html": "/wp/index.html",
     "static/css/2.d3ae2b0c.chunk.css.map": "/wp/static/css/2.d3ae2b0c.chunk.css.map",
-    "static/css/main.16eba00c.chunk.css.map": "/wp/static/css/main.16eba00c.chunk.css.map",
-    "static/js/2.9f9f7130.chunk.js.LICENSE.txt": "/wp/static/js/2.9f9f7130.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/wp/static/media/2.258bf262.jpg",
+    "static/css/main.3d6facea.chunk.css.map": "/wp/static/css/main.3d6facea.chunk.css.map",
+    "static/js/2.4d0ffada.chunk.js.LICENSE.txt": "/wp/static/js/2.4d0ffada.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/wp/static/media/back.ecf91c81.jpg",
     "static/media/semantic.min.css": "/wp/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.745b5364.js",
     "static/css/2.d3ae2b0c.chunk.css",
-    "static/js/2.9f9f7130.chunk.js",
-    "static/css/main.16eba00c.chunk.css",
-    "static/js/main.9e8e9c43.chunk.js"
+    "static/js/2.4d0ffada.chunk.js",
+    "static/css/main.3d6facea.chunk.css",
+    "static/js/main.39a03812.chunk.js"
   ]
 }
