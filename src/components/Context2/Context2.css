@@ -1,0 +1,57 @@
+.animatedContainer {
+  margin-top: 5%;
+  height: 150px;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.skills {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: tech 40s linear infinite;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.skills:hover {
+  animation-play-state: paused;
+}
+
+@keyframes tech {
+  0% {
+    transform: translate(5%, 0);
+  }
+  100% {
+    transform: translate(-120%, 0);
+  }
+}
+
+.skill {
+  margin: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 200ms linear; 
+}
+.skill:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1020px) {
+  .skills {
+    animation: tech 80s linear infinite;
+  }
+
+  @keyframes tech {
+    0% {
+      transform: translate(5%, 0);
+    }
+    100% {
+      transform: translate(-200%, 0);
+    }
+  }
+}

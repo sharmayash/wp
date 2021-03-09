@@ -1,0 +1,26 @@
+.subhead {
+  width: 100%;
+  display: block;
+  text-align: center;
+  max-width: 800px;
+  line-height: 1.6 !important;
+  font-size: 18px !important;
+  margin: 3% auto 20% !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.expCards > .card {
+  width: 400px !important;
+  margin: 50px !important;
+  padding: 2% !important;
+  background: #dfe6f4 !important;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgb(204, 219, 232)-3px -3px 6px 1px inset !important;
+}
+
+@media screen and (max-width: 1080px) {
+  .expCards > .card {
+    margin: 20px !important;
+    padding: 1% !important;
+  }
+}
