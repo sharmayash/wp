@@ -27,7 +27,7 @@ const Context1 = () => {
         About me
       </Header>
       <hr className="home-line" />
-      <Header as="h4" className="subhead">
+      <Header as="h3" className="subhead">
         A software developer who loves to create projects and learn new
         technologies and frameworks. <br /> I have professional experience in
         web development and desktop applications, and hands-on experience in

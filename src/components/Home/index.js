@@ -89,12 +89,11 @@ const Home = () => {
               alt="my pic"
               className="ui circular centered small image mypic"
             />
-            <div className="ui huge header grey center aligned">
-              <i>Yash Sharma</i>
+            <div className="ui huge header center aligned coloredText">
+              Yash Sharma
             </div>
             <hr className="home-line1" />
-            <div className="ui small header grey center aligned hideOnLandscape">
-              <p>Proud Indian</p>
+            <div className="ui small header coloredText center aligned hideOnLandscape">
               <p>Full Stack Developer</p>
               <p>B.Tech In Computer Science</p>
             </div>
@@ -102,7 +101,7 @@ const Home = () => {
               onClick={handleSidebar}
               className="ui grey basic social center fluid vertical animated button"
             >
-              <div className="visible content">Social</div>
+              <div className="visible content coloredText">Social</div>
               <div className="hidden content">
                 <i className="users icon"></i>
               </div>

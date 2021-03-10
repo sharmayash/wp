@@ -78,7 +78,9 @@ const Context2 = () => {
                 alt={skill.text}
                 title={skill.text}
               />
-              <Header as="h5">{skill.text}</Header>
+              <Header as="h3" style={{ fontSize: "14px" }}>
+                {skill.text}
+              </Header>
             </div>
           ))}
         </div>

@@ -18,6 +18,11 @@
     rgb(204, 219, 232)-3px -3px 6px 1px inset !important;
 }
 
+.expCards > .card > .content > .meta,
+.expCards > .card > .extra {
+  color: #18191f !important;
+}
+
 @media screen and (max-width: 1080px) {
   .expCards > .card {
     margin: 20px !important;

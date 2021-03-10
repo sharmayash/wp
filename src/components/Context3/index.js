@@ -103,6 +103,8 @@ const Context3 = () => {
           {projectDetails.map((project, index) => (
             <Card key={index} className="project-card">
               <Image
+                alt={project.name}
+                title={project.name}
                 src={project.imgSrc}
                 wrapped
                 className={project.isMobile ? "mobileImages" : "normalImg"}
