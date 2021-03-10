@@ -1,0 +1,73 @@
+.animatedContainer2 {
+  height: 400px;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardsRow {
+  top: 10%;
+  left: 0;
+  position: absolute;
+  animation: pan 40s linear infinite;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cardsRow:hover {
+  animation-play-state: paused;
+}
+
+@keyframes pan {
+  0% {
+    transform: translate(3%, 0);
+  }
+  100% {
+    transform: translate(-67%, 0);
+  }
+}
+
+.project-card {
+  margin: 0 50px !important;
+  transition: 200ms linear !important;
+}
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.normalImg > img {
+  margin: 0 auto;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.mobileImages > img {
+  margin: 0 auto;
+  width: auto !important;
+  height: 200px !important;
+}
+
+.cardHeader {
+  cursor: pointer;
+  transition: 200ms ease-in !important;
+}
+.cardHeader:hover {
+  color: #5d7bf4 !important;
+  transform: translateX(5%);
+}
+
+@media screen and (max-width: 1020px) {
+  .cardsRow {
+    animation: pan 40s linear infinite;
+  }
+
+  @keyframes pan {
+    0% {
+      transform: translate(2%, 0);
+    }
+    100% {
+      transform: translate(-90%, 0);
+    }
+  }
+}

@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <Sidebar.Pushable
       as={Segment}
+      id="home"
       style={{ overflow: "hidden", background: "#282c34" }}
     >
       <Sidebar
